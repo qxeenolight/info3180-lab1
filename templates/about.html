@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"/>
 </head>
 <body>
-    <h1>Tiffany Parkinson</h1>
-    <p>I am a finalizing Computer Science Major. My favorite color is purple
-        and after attaining my degree, I intend to pursue an associates degree
-        in Veterinary Medicine. My passion does not necessarily lie within my 
-        current studies, but it is still interesting nontheless to learn new things.
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+    <h1>╰┈➤ Tiffany Parkinson</h1>
+    <p>An intriguing fact about me is that I embrace my alias, qxeenolight, with enthusiasm, 
+        often preferring it over my given name. My affinity for purple runs deep, as it symbolizes 
+        my innate creativity and insatiable curiosity, guiding my decision to pursue a degree in Computer 
+        Science. As I near completion of my studies in this field, my passion extends beyond programming, 
+        driving me to explore diverse realms. Despite my dedication to Computer Science, my interests beckon 
+        me towards a new horizon: an associate's degree in Veterinary Medicine upon graduation. While my 
+        current academic pursuits are intellectually stimulating, my fervor for learning and caring for 
+        animals knows no bounds.
     </p>
 </body>
 </html>
